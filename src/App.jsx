@@ -1,5 +1,14 @@
+import { Counter } from './components/Counter'
+import { RepositoryList } from './components/RepositoryList'
 import './styles/global.scss'
 
 export function App() {
-    return <h1 id='title'>Hello World</h1>
+    return (
+        <>
+            <RepositoryList />
+            <Counter />
+        </>        
+    )
 }
+
+//<>fragment</> as tags sem nome são fragmetos
